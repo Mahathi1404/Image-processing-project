@@ -1,0 +1,24 @@
+Algorithm: Classification of blood group
+1: Input: Image I
+2: Output: Classification of Blood Group using color Image I
+3: gray = rgb2gray (I)
+4: B=im2bw (I)
+5: I = I’; Compliments of the Image
+6: [nrows ncols dim] = size (invImg); slices columns wise split equally img1,img2,img3
+7: D= edge (img1,'canny')
+8: imshow(D);title('Group A')
+9: E= edge (img2,'canny')
+10: imshow(D);title('Group B')
+11: F= edge (img3,'canny')
+12: imshow(D);title('Rh Factor D')
+13: Counting of edges using bwlabel() at D,E,F
+14: Resultant edges are num, num1, num2
+15: if num > unit then flag = 1 else flag =0
+16: if num 1> unit then flag = 1 else flag =0
+17: if num 2> unit then flag = 1 else flag =0
+18: for i = 1: length(array) ; blood strings are taken
+19: if (strcmp(temp,str{i}))
+20:rst = str{i-1};
+21: (' BLOOD GROUP is %s',str{i-1});
+22: end
+23:end
