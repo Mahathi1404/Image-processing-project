@@ -1,1 +1,2 @@
-# image-processing-project# Image-processing-project
+# Image processing project
+This repository contains implementation of the paper *Blood Group Detection using Image Processing Techniques* and *Determination and Classification of Blood Types using Image Processing Techniques* in **Python** using *openCV* to detect the blood group of individual.
